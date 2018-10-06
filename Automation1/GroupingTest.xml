@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <groups>
+  <run>
+  //<exclude name="user"/>
+  <include name="Customer"/>
+
+  </run>
+  </groups>
+  
+  
+    <classes>
+      <class name="DoubleArray.GroupingDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

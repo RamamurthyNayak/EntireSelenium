@@ -1,0 +1,8 @@
+
+<suite name="Suite">
+  <test name="Penga">
+    <classes>
+              <class name="Mohram.DemoB"/>
+        </classes>
+  </test> 
+</suite> 

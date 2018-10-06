@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter  name="city" value="Pune"/>
+  <parameter  name="area" value="MG Road"/>
+  
+    <classes>
+      <class name="JSP.DemoB"/>
+    </classes>
+  </test> 
+</suite> 
