@@ -22,14 +22,21 @@ public abstract class BaseTest implements IAutoConst {
 	public WebDriver driver;
 	public String url=Utility.getPropertyValue(CONFIG_PATH,"URL");
 	public String ITO=Utility.getPropertyValue(CONFIG_PATH,"ITO");
-	public long l=Long.parseLong(ITO);
+	public long lngITO=Long.parseLong(ITO);
+	
+	
+	public String ETO=Utility.getPropertyValue(CONFIG_PATH,"ITO");
+	public long lngETO=Long.parseLong(ETO);
+	
+	
+	
 	
 
 	@Parameters({"ip","browser"})
 	@BeforeMethod(alwaysRun=true)
 	public void openApp(@Optional("localhost")String ip,@Optional("chrome")String browser){
 		driver=Utility.openBrowser(ip, browser);
-		driver.manage().timeouts().implicitlyWait(l,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(lngITO,TimeUnit.SECONDS);
 		driver.get(url);
 	}
 	@AfterMethod(alwaysRun=true)

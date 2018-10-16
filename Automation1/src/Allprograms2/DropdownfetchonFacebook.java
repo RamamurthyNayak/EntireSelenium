@@ -24,13 +24,10 @@ public class DropdownfetchonFacebook {
 
 		List<WebElement> allOptions = s.getOptions();
 
-
-//				for(int i=1;i<allOptions.size();i++){
-//				WebElement option = allOptions.get(i);
-//				String text = option.getText();
-//				System.out.println(text);
-
-
+		//	for(int i=1;i<allOptions.size();i++){
+		//	WebElement option = allOptions.get(i);
+		//	String text = option.getText();
+		//	System.out.println(text);
 
 
 		for (WebElement option : allOptions) {

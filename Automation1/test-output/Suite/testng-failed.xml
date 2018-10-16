@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="Framework.DemoA">
+      <class name="FrameworkScript.DemoA">
         <methods>
-          <include name="testA"/>
+          <include name="TestB"/>
           <include name="closeApp"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- Framework.DemoA -->
+      </class> <!-- FrameworkScript.DemoA -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
